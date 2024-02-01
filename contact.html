@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- reference link   https://www.youtube.com/watch?v=_flI0-PdAFU -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropping-Service</title>
+    <meta name="description" content="">
+       
+    <link rel="icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- boxicon css link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <!-- media query -->
+   <link rel="stylesheet" href="/media.css">
+  <!-- scroll effect -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+   <link rel="stylesheet" href="/snow.css">
+
+
+   <style>
+    .contact{
+      background: url(footer-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+   min-height: 90Vh;
+   padding: 50px 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat; 
+}
+.contact .content{
+   
+   max-width: 800px;
+   text-align: center;
+}
+.contact .content h2{
+   text-transform: uppercase;
+   font-size: 2rem;
+   font-weight: 600;
+   color:white;
+   text-decoration-line:underline;
+}
+.container{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30px;
+}
+.contactInfo span,span a{
+   color:white;
+   text-transform: uppercase;
+   text-decoration: solid;
+}
+.container .contactInfo{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+}
+.container .contactInfo .box{
+   position: relative;
+   padding: 20px 0;
+   display: flex;
+}
+.container .contactInfo .box .icon{
+   width: 60px;
+   height: 60px;
+   background:rgb(255, 68, 99);
+  color:white;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   font-size: 20px;
+}
+.container .contactInfo .box .text{
+   display: flex;
+   margin-left: 20px;
+   font-size: 15px;
+   color: white;
+   flex-direction: column;
+   font-weight:300;
+}
+.container .contactInfo .box h3{
+   font-weight: 500;
+   color:white;
+   text-transform: uppercase;
+}
+
+.contactForm{
+   border-radius: 10px;
+   width: 40%;
+   padding: 40px;
+   background: #fff;
+}
+.contactForm h2{
+   font-size: 30px;
+   color: #333;
+   font-weight: 500;
+}
+.contactForm .inputbox{
+   position: relative;
+   width: 100%;
+   margin: 10px;
+}
+
+.contactForm .inputbox input{
+position: relative;
+width: 100%;
+padding: 8px 0;
+margin: 10px 0;
+font-size: 16px;
+border: none;
+border-bottom: 2px solid #333;
+border-radius: 10px;
+outline: none;
+resize: none;
+}
+
+
+
+.contactForm .inputbox input[type="submit"]
+{
+width: 100px;
+background:rgb(255, 68, 99);
+color: #fff;
+padding: 10px;
+cursor: pointer;
+font-size: 18px;
+}
+
+@media screen and (max-width: 991px) {
+   section .content{
+       margin-top: 20px;
+     
+   }
+   .contact{
+       padding: 50px;
+   }
+   .container{
+       flex-direction: column;
+   }
+   .container .contactInfo{
+       margin-bottom: 40px;
+       
+   }
+   .container .contactInfo ,
+   .contactForm{
+       width: 100%;
+   }
+}
+   </style>
+</head>
+<body>
+    <header>
+        
+        <a href="/index.html" class="logo">
+        <span>D</span>Night</a>
+        <ul class="navlist">
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="#">Our Menu</a></li>
+            <li><a href="/contact.html">Contact</a></li>
+        </ul>
+        <div class="right-header">
+            <a href="" class="btn">Let's Chat<i class='bx bxs-message-square-dots'></i></a>
+         <div class="menu-icon ">
+            <div class="bar"></div>
+         </div>
+        </div>
+    </header>
+
+
+  
+      <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <span>Vasai-Virar <br> Nallasopara East 401209</span>
+                    </div>
+                </div> 
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone No:</h3>
+                        <span><a href="tel:+9892195068">+91 9892195068</a></span>
+                    </div>
+                </div> 
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email Id:</h3>
+                        <span><a href="mailto:as3527114@gmail.com">as3527114@gmail.com</a></span>
+                    </div>
+                </div> 
+            </div>
+           
+            <div class="contactForm">
+                <h2>Send message  for more</h2>
+                <form action="https://script.google.com/macros/s/AKfycbw7krv83pOTjRDIWpj8XiL4ZRmzGHmpiXzDJHUzoaOo4pxoUF1hFhMVEahoYif24mon/exec"  method="POST"  name="Contact-form">
+                <div class="inputbox">
+                    <input type="text" id="username"  name="user"  placeholder="name" required="required">
+                   
+                </div>
+                
+                <div class="inputbox">
+                    <input type="text" id="email" name="email" placeholder="email" required="required">
+                    
+                </div>
+                <div class="inputbox">
+                    <input type="number" id="number" name="number" placeholder="+91" required="required">
+                    
+                </div>
+  
+                <div class="inputbox">
+                    <input type="submit" name="submit" value="Send">  <BR>REPLY WITHIN 24 HR's
+                </div>
+             </form>
+            </div>
+        </div>
+    </section>
+        <footer>
+          <div class="row">
+            <div class="col">
+              <img src="/images/homw.png" class="footer_logo" />
+              <p class="footer_about">
+                This example provides a starting point for a responsive website with
+                a search option in the navbar and a simple product display.
+                Customize it according to your needs and add additional features as
+                required.
+              </p>
+            </div>
+            <div class="col">
+              <h3>
+                Contact-Us
+                <div class="bottom_line"><span></span></div>
+              </h3>
+              <p>Building: BALKAMPET</p>
+              <p>Ameerpet Hyderabad</p>
+              <p>Telangana PIN Code-500038</p>
+              <p>GST No.36AALCC5172F1ZL</p>
+            </div>
+    
+            <div class="col">
+              <h3>
+                Links
+                <div class="bottom_line"><span></span></div>
+              </h3>
+              <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="/product.html">PRODUCT</a></li>
+                <li><a href="/about.html">ABOUT</a></li>
+                <li><a href="/contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <h3>
+                Reach us
+                <div class="bottom_line"><span></span></div>
+              </h3>
+              <form>
+                email: as34@gmail.com <br />
+                Phone no :9892195068
+              </form>
+    
+              <div class="social-media">
+                <div class="bg-icon">
+                  <a href=""><i id="what" class="bx bxl-whatsapp"></i></a>
+                  <span></span>
+                </div>
+                <div class="bg-icon">
+                  <a href=""><i id="inst" class="bx bxl-instagram"></i></a>
+                  <span></span>
+                </div>
+    
+                <div class="bg-icon">
+                  <a href=""><i id="fb" class="bx bxl-facebook-circle"></i></a>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr />
+    
+          <p class="copyright">Dnight.com</p>
+          <hr />
+          <p class="copyright">Created by Created by Mak.Webgeny</p>
+          <hr />
+        </footer>
+    </section>     <script src="script.js"></script>
+      </body>
+    </html>
+    
